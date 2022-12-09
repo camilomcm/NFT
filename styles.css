@@ -6,17 +6,23 @@
 body {
     font-family: 'Outfit', sans-serif;
     font-size: 18px;
-    margin: 0 auto;
+    background-color: hsl(217, 54%, 11%);
+    color: hsl(0, 0%, 100%);
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
 }
 
-#container {
-    background-color: red;
-    display: inline-block;
-    padding: 35px;
-    width: 500px;
+#card {
+    background-color: hsl(216, 50%, 16%);
+    padding: 30px;
+    width: 375px;
+    margin: auto auto;
+    border-radius: 20px;
 }
 
-img {
+#logo {
     width: 100%;
     border-radius: 20px;
     margin-bottom: 20px;
@@ -24,39 +30,69 @@ img {
 
 h1 {
     margin-bottom: 15px;
+    font-size: 1.4rem;
 }
 
 #description {
-    font-size: 1.6rem;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
+    font-weight: 300;
 }
 
 #data {
     display: flex;
     justify-content: space-between;
-    font-size: 1.4rem;
-
-    background-color: blue;
+    padding-bottom: 30px;
+    border-bottom: 1px solid hsl(0, 0%, 100%);; 
 }
 
 #data div {
     display: flex;
     align-items: center;
-    background-color: green;
 }
 
 #ethereum {
-    width: 18px;
-    height: 30px;
+    width: 12px;
+    height: 20px;
     margin: 0;
 }
 
 #clock {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     margin: 0;
 }
 
 #data div p {
     margin-left: 10px;
+    font-size: 1rem;
+}
+
+#value p {
+    font-weight: 600;
+}
+
+#author {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    /* background-color: pink; */
+}
+
+#avatar {
+    width: 10%;
+    border: 2px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+}
+
+#author p {
+    margin-left: 15px;
+}
+
+span {
+    font-weight: bold;
+}
+
+.attribution {
+    text-align: center;
+    /* background-color: orange; */
 }
