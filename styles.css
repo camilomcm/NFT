@@ -8,8 +8,8 @@ body {
     font-size: 18px;
     background-color: hsl(217, 54%, 11%);
     color: hsl(0, 0%, 100%);
-        /* display: flex;
-        align-items: center; */
+
+    padding: 50px 0;
 }
 
 #card {
@@ -45,7 +45,6 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-
     margin: -20px 0 0 -20px
 }
 
@@ -127,5 +126,4 @@ span {
 .attribution {
     text-align: center;
     margin-top: 50px;
-    /* background-color: orange; */
 }
