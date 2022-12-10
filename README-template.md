@@ -11,10 +11,8 @@ This is my solution to the [NFT preview card component challenge on Frontend Men
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -31,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://github.com/camilomcm/NFT)
-- Live Site URL: [Live site](https://camilomcm.github.io/NFT/)
+- Solution URL: [solution](https://github.com/camilomcm/NFT)
+- Live Site URL: [live site](https://camilomcm.github.io/NFT/)
 
 ## My process
 
