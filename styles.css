@@ -37,6 +37,8 @@ body {
     height: 98.5%;
     width: 100%;
     border-radius: 20px;
+
+    transition: background-color 0.5s, opacity 0.5s;
 }
 
 .fa-solid {
@@ -45,7 +47,7 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    margin: -20px 0 0 -20px
+    margin: -20px 0 0 -20px;
 }
 
 #content:hover {
@@ -61,6 +63,10 @@ body {
 h1 {
     margin-bottom: 15px;
     font-size: 1.4rem;
+}
+
+h1:hover {
+    cursor: grab;
 }
 
 #description {
@@ -121,6 +127,10 @@ h1 {
 
 span {
     font-weight: bold;
+}
+
+span:hover {
+    cursor: grab;
 }
 
 .attribution {
