@@ -31,41 +31,47 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://github.com/camilomcm/NFT)
+- Live Site URL: [Live site](https://camilomcm.github.io/NFT/)
 
 ## My process
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
+- HTML5
+- CSS
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- Font Awesome
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
+In this project I was able to continue practicing my HTML and CSS skills. Something new that I learned was do hover over an image while darken this one and make an element appear as follows:
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<div class="overlay">
+        <img src="/images/image-equilibrium.jpg" id="logo" alt="Logo">
+        <div id="content"></div>
+        <i class="fa-solid fa-eye"></i>
+      </div>
 ```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.fa-solid {
+    display: none;
+    font-size: 2.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -20px 0 0 -20px
 }
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+
+#content:hover {
+    background-color: hsl(178, 100%, 50%);
+    opacity: 0.5;
+    cursor: grab;
+}
+
+#content:hover + .fa-solid {
+    display: block;
 }
 ```
 
