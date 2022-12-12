@@ -54,7 +54,7 @@ In this project I was able to continue practicing my HTML and CSS skills. Someth
 ```
 ```css
 .fa-solid {
-  display: none;
+  visibility: hidden;
   font-size: 2.5rem;
   position: absolute;
   top: 50%;
@@ -69,7 +69,7 @@ In this project I was able to continue practicing my HTML and CSS skills. Someth
 }
 
 #content:hover + .fa-solid {
-  display: block;
+  visibility: visible;
 }
 ```
 
