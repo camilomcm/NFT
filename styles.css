@@ -8,8 +8,8 @@ body {
     font-size: 18px;
     background-color: hsl(217, 54%, 11%);
     color: hsl(0, 0%, 100%);
-
-    padding: 50px 0;
+    position: relative;
+    padding: 100px 0;
 }
 
 #card {
@@ -69,10 +69,13 @@ body {
 h1 {
     margin-bottom: 15px;
     font-size: 1.4rem;
+    display: inline-block;
+    transition: color 0.3s;
 }
 
 h1:hover {
     cursor: grab;
+    color: hsl(178, 100%, 50%);
 }
 
 #description {
@@ -133,13 +136,33 @@ h1:hover {
 
 span {
     font-weight: bold;
+    transition: color 0.3s;
 }
 
 span:hover {
     cursor: grab;
+    color: hsl(178, 100%, 50%);
 }
 
 .attribution {
-    text-align: center;
-    margin-top: 50px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 5px;
+    color: hsl(217, 54%, 11%);
+    transition: background-color 0.3s;
+}
+
+.attribution:hover {
+    background-color: hsl(0, 0%, 100%);
+}
+
+a {
+    text-decoration: none;
+    color: hsl(217, 54%, 11%);
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: hsl(215, 51%, 70%);
 }
