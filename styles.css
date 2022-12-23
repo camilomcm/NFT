@@ -9,7 +9,7 @@ body {
     background-color: hsl(217, 54%, 11%);
     color: hsl(0, 0%, 100%);
     position: relative;
-    padding: 100px 0;
+    padding: 137px 0;
 }
 
 #card {
@@ -99,6 +99,16 @@ h1:hover {
     width: 12px;
     height: 20px;
     margin: 0;
+    color: hsl(178, 100%, 50%);
+}
+
+#value p {
+    font-weight: 600;
+    color: hsl(178, 100%, 50%);
+}
+
+#time p {
+    color: hsl(215, 51%, 70%);
 }
 
 #clock {
@@ -112,15 +122,12 @@ h1:hover {
     font-size: 1rem;
 }
 
-#value p {
-    font-weight: 600;
-}
-
 #author {
     margin-top: 20px;
     margin-bottom: 5px;
     display: flex;
     align-items: center;
+    color: hsl(215, 51%, 70%);
     /* background-color: pink; */
 }
 
@@ -135,7 +142,7 @@ h1:hover {
 }
 
 span {
-    font-weight: bold;
+    color: hsl(0, 0%, 100%);
     transition: color 0.3s;
 }
 
